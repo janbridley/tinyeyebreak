@@ -6,7 +6,7 @@ and allows for simple control via the menu bar.
 
 ## Installing
 
-```sh
+```console
 make lint install
-$HOME/.local/bin/tinyeyebreak # Open the app into the menu bar
+$HOME/.local/bin/tinyeyebreak # Open the menu-bar app
 ```
