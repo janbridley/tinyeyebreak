@@ -7,8 +7,8 @@ import AppKit
 /// The break cadence for the blackout popup.
 ///
 /// Everything is stored in whole seconds. The interval picker shows it as minutes;
-// `everySeconds` is the work time between breaks, `breakSeconds` how long the blackout
-// stays up.
+/// `everySeconds` is the work time between breaks, `breakSeconds` how long the blackout
+/// stays up.
 typealias Settings = (everySeconds: Int, breakSeconds: Int)
 
 /// Take a single-instance lock for an unbundled binary, preventing duplicate instances.
