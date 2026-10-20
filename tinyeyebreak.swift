@@ -29,7 +29,7 @@ func acquireLock(_ path: String) -> Int32 {
 ///
 /// A direct terminal launch immediately returns, with the child receiving its own
 /// session (`POSIX_SPAWN_SETSID`) and /dev/null stdio. Skipped when already detached,
-// when launchd is the parent, and under `swift tinyeyebreak.swift`.
+/// when launchd is the parent, and under `swift tinyeyebreak.swift`.
 ///
 /// returns: Nothing on the detached path. Otherwise the process exits 0 without return.
 func detachIfInteractive() {
