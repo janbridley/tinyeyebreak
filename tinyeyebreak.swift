@@ -1,4 +1,4 @@
-// tinyeyebreak.swift: a minimal 20-20-20 eye-break reminder with menu bar cotrols.
+// tinyeyebreak.swift: a minimal 20-20-20 eye-break reminder with menu bar controls.
 //
 //   run:   swift tinyeyebreak.swift (or: swiftc -O tinyeyebreak.swift -o tinyeyebreak)
 
